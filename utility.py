@@ -18,7 +18,7 @@ def preprocess_image(image_path):
 
 
 def load_model(weights_path, device):
-    model = models.densenet121(pretrained=False)
+    model = models.densenet121()
     num_ftrs = model.classifier.in_features
     model.classifier = torch.nn.Linear(num_ftrs, 2)
     model.load_state_dict(torch.load(weights_path, map_location=device))
