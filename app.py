@@ -91,7 +91,7 @@ if uploaded_file is not None:
         device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
         # Load model
-        model = load_model('best_model.pth', device)
+        model = load_model('best_model.pt', device)
 
         # Preprocess image
         image_tensor = preprocess_image(uploaded_file)
