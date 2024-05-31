@@ -121,5 +121,5 @@ if uploaded_file is not None:
             st.image(original_img, caption='Original Image',
                      use_column_width=True)
         with col4:
-            st.image(gradcam_img_pil, caption='Grad-CAM',
+            st.image(gradcam_img_pil, caption='Grad-CAM heatmap of image features responsible for the prediction',
                      use_column_width=True)
