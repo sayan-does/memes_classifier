@@ -74,15 +74,14 @@ In the visualizations, these colors indicate the level of influence a region has
 
 ## Classification Report
 
-Final Classification Report:
-              precision    recall  f1-score   support
-
-           0       0.93      0.99      0.96        86
-           1       0.99      0.92      0.95        73
-
-    accuracy                           0.96       159
-   macro avg       0.96      0.95      0.96       159
-weighted avg       0.96      0.96      0.96       159
+|           | Precision | Recall | F1-Score | Support |
+|-----------|-----------|--------|----------|---------|
+| 0         | 0.93      | 0.99   | 0.96     | 86      |
+| 1         | 0.99      | 0.92   | 0.95     | 73      |
+|-----------|-----------|--------|----------|---------|
+| Accuracy  |           |        | 0.96     | 159     |
+| Macro Avg | 0.96      | 0.95   | 0.96     | 159     |
+| Weighted Avg | 0.96   | 0.96   | 0.96     | 159     |
 
 ### Metrics
 
