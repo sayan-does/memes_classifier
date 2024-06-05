@@ -1,7 +1,7 @@
 # Meme Classifier Web App
 
 This web application is designed to classify images as "Meme" or "Not Meme" using a pre-trained DenseNet121 model. Additionally, it generates Grad-CAM visualizations to highlight the regions of the image that the model considered important for its prediction.
-#### Try the app here
+### Try the app here
 [Link to the app](https://check-a-meme.streamlit.app/)
 
 
