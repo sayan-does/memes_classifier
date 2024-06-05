@@ -58,6 +58,16 @@ This web application is designed to classify images as "Meme" or "Not Meme" usin
 
 DenseNet121 is a densely connected convolutional network. DenseNet121 improves the flow of information and gradients throughout the network, making the model more accurate and efficient. It is particularly effective for image classification tasks due to its deep architecture and dense connections between layers.
 
+
+### Metrics
+
+- **Accuracy:** 97%
+- **Precision:** 96%
+- **Recall:** 95%
+- **F1 Score:** 96%
+#### plots
+ ![result plots](outputs/metrics.png)
+
 ## Grad-CAM
 
 Grad-CAM (Gradient-weighted Class Activation Mapping) is a technique used to visualize the important regions of an image for a specific class prediction. It works as follows:
@@ -76,15 +86,6 @@ Grad-CAM (Gradient-weighted Class Activation Mapping) is a technique used to vis
 
 In the visualizations, these colors indicate the level of influence a region has on the final prediction, helping to understand which parts of the image are most critical for the model's decision-making process.
 
-
-### Metrics
-
-- **Accuracy:** 97%
-- **Precision:** 96%
-- **Recall:** 95%
-- **F1 Score:** 96%
-#### plots
- ![result plots](outputs/metrics.png)
 
 ## Example Predictions
 
