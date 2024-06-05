@@ -65,23 +65,12 @@ Grad-CAM (Gradient-weighted Class Activation Mapping) is a technique used to vis
 
 ### Grad-CAM Color Explanation
 
-- ![Red](https://via.placeholder.com/15/f03c15/000000?text=+) Red: High importance regions (strong influence on the prediction)
-- ![Yellow/Orange](https://via.placeholder.com/15/FFA500/000000?text=+) Yellow/Orange: Moderate importance regions
-- ![Blue/Green](https://via.placeholder.com/15/007bff/000000?text=+) Blue/Green: Low importance regions (weak influence on the prediction)
+- ![](https://via.placeholder.com/15/f03c15/000000?text=+) **Red:** High importance regions (strong influence on the prediction)
+- ![](https://via.placeholder.com/15/FFA500/000000?text=+) **Yellow/Orange:** Moderate importance regions
+- ![](https://via.placeholder.com/15/007bff/000000?text=+) **Blue/Green:** Low importance regions (weak influence on the prediction)
 
 In the visualizations, these colors indicate the level of influence a region has on the final prediction, helping to understand which parts of the image are most critical for the model's decision-making process.
 
-
-## Classification Report
-
-|           | Precision | Recall | F1-Score | Support |
-|-----------|-----------|--------|----------|---------|
-| 0         | 0.93      | 0.99   | 0.96     | 86      |
-| 1         | 0.99      | 0.92   | 0.95     | 73      |
-|-----------|-----------|--------|----------|---------|
-| Accuracy  |           |        | 0.96     | 159     |
-| Macro Avg | 0.96      | 0.95   | 0.96     | 159     |
-| Weighted Avg | 0.96   | 0.96   | 0.96     | 159     |
 
 ### Metrics
 
